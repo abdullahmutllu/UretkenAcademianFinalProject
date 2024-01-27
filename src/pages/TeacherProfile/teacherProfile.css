@@ -1,0 +1,102 @@
+.teacher-profile {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-details {
+  margin-bottom: 2rem;
+}
+
+.teacher-profile .details .tutor img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.teacher-profile .details .tutor h3 {
+  font-size: 2rem;
+  color: black;
+  margin: 0.5rem 0;
+}
+
+.teacher-profile .details .tutor span {
+  font-size: 1.6rem;
+  color: #777; /* Varsayılan renk */
+  font-style: italic;
+}
+
+.teacher-profile .details .flex {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.teacher-profile .details .flex p {
+  flex: 1 1 25rem;
+  border-radius: 0.5rem;
+  background-color: var(--light-bg);
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  color: var(--light-color);
+}
+
+.teacher-profile .details .flex .span {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--main-color);
+}
+
+.courses {
+  margin-top: 2rem;
+}
+
+.teacher-profile .courses .heading {
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.teacher-profile .box-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.teacher-profile .box {
+  text-align: center;
+}
+
+.teacher-profile .box img.thumb {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.teacher-profile .box h3.title {
+  font-size: 1.8rem;
+  color: var(--black);
+  margin: 0.5rem 0;
+}
+
+.teacher-profile .box a.inline-btn {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: var(--main-color);
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.teacher-profile .box a.inline-btn:hover {
+  background-color: var(--black);
+}

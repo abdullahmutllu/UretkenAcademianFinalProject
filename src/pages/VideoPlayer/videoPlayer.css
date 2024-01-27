@@ -1,0 +1,92 @@
+.video-play .video-details {
+  background-color: white;
+  padding: 2rem;
+}
+.video-play .video-details .video {
+  width: 80%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.video-play .video-details .title {
+  font-size: 2rem;
+  color: black;
+  padding: 1.5rem 0;
+}
+.video-play .video-details .info {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: var(--border);
+}
+.video-play .video-details .info p {
+  font-size: 1.6rem;
+}
+.video-play .video-details .info p i {
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+.video-play .video-details .info p span {
+  color: var(--light-color);
+}
+.video-play .video-details .tutor {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.video-play .video-details .tutor img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.video-play .video-details .tutor h3 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 0.2rem;
+}
+.video-play .video-details .tutor span {
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+.video-play .video-details .flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+.video-play .video-details .flex a {
+  margin-top: 0;
+}
+.video-play .video-details .flex button {
+  background-color: var(--light-bg);
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+.video-play .video-details .flex button i {
+  color: black;
+}
+
+.video-play .video-details .flex button span {
+  color: var(--light-color);
+}
+.video-play .video-details .flex button:hover {
+  background-color: black;
+}
+.video-play .video-details .flex button:hover i {
+  color: white;
+}
+.video-play .video-details .flex button:hover span {
+  color: white;
+}
+.video-play .video-details .desc {
+  padding-top: 2rem;
+}
+.video-play .video-details .desc p {
+  line-height: 2;
+  font-size: 1.7rem;
+  color: var(--light-color);
+  white-space: pre-line;
+}

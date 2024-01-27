@@ -1,0 +1,76 @@
+.teacher .search-tutor {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.teacher .search-tutor input {
+  width: 100%;
+  font-size: 1.8rem;
+  color: black;
+  background: none;
+}
+.teacher .search-tutor button {
+  font-size: 2rem;
+  cursor: pointer;
+  color: black;
+}
+.teacher .search-tutor button:hover {
+  color: var(--main-color);
+}
+.teacher .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.teacher .box-container .box {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: white;
+}
+.teacher .box-container .box .tutor {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.teacher .box-container .box .tutor img {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.teacher .box-container .box .tutor h3 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+.teacher .box-container .box .tutor span {
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+.teacher .box-container .box p {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  color: var(--light-color);
+}
+.teacher .box-container .box p span {
+  color: var(--main-color);
+}
+.teacher .box-container .offer {
+  text-align: center;
+}
+.teacher .box-container .offer h3 {
+  font-size: 2rem;
+  color: black;
+}
+.teacher .box-container .offer p {
+  line-height: 2;
+  padding-bottom: 0.5rem;
+}

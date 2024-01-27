@@ -1,0 +1,68 @@
+.quick-select .contentContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.quick-select .contentContainer .contentDs {
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  padding: 2rem;
+}
+.quick-select .contentContainer .contentDs .title {
+  font-size: 2.5rem;
+  font-weight: 2000;
+  color: black;
+}
+.quick-select .contentContainer .contentDs p {
+  line-height: 1.5;
+  padding-top: 1.5rem;
+  color: var(--ligt-color);
+  font-size: 1.8rem;
+}
+.quick-select .contentContainer .contentDs p span {
+  color: var(--main-color);
+}
+.quick-select .contentContainer .contentDs tutor {
+  text-align: center;
+}
+.quick-select .contentContainer .contentDs tutor p {
+  padding-bottom: 1rem;
+}
+.quick-select .contentContainer .contentDs .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.quick-select .contentContainer .contentDs .flex a {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  background-color: var(--ligt-bg);
+}
+.quick-select .contentContainer .contentDs .flex a i {
+  margin-right: 1rem;
+  color: var(--black);
+}
+.quick-select .contentContainer .contentDs .flex a span {
+  color: var(--ligt-color);
+}
+.quick-select .contentContainer .contentDs .flex a:hover {
+  background-color: var(--black);
+}
+.quick-select .contentContainer .contentDs .flex a:hover i {
+  color: var(--white);
+}
+.quick-select .contentContainer .contentDs .flex a:hover span {
+  color: var(--white);
+}
+.content {
+  padding-bottom: 2rem;
+  border-bottom: var(--border);
+  font-size: 2.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+  margin-bottom: 1.8rem;
+}

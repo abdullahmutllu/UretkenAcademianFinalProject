@@ -1,0 +1,49 @@
+.reviews .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reviews .heading {
+  font-size: 4rem;
+  border-bottom: 2px solid gray;
+  margin: 25px;
+  color: gray;
+}
+
+.reviews .box-container .box {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: var(--white);
+  padding-top: 1.5rem;
+}
+.reviews .box-container .box p {
+  line-height: 2;
+  font-size: 1.7rem;
+  color: var(--light-color);
+}
+.reviews .box-container .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.reviews .box-container .box .user h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: 0.2rem;
+}
+.reviews .box-container .box .user span {
+  color: var(--light-color);
+}
+.reviews .box-container .box .user .stars i {
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+.reviews .box-container .box img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}

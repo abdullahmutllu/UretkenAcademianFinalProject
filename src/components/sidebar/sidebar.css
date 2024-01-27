@@ -1,0 +1,96 @@
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 30rem;
+  background-color: var(--white);
+  border-right: var(--border);
+  transition: 0.2s linear;
+  background-color: rgb(160, 250, 160);
+  z-index: 1200;
+}
+.side-bar .close-sidebar {
+  text-align: right;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+.side-bar .close-sidebar i {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.4rem;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--red);
+  text-align: center;
+  border-radius: 0.5rem;
+  display: none;
+}
+.side-bar .close-sidebar i:hover {
+  background-color: var(--black);
+}
+.side-bar .profile {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.side-bar .profile img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.side-bar .profile h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+.side-bar .profile span {
+  color: var(--ligt-color);
+  font-size: 1.6rem;
+}
+
+.side-bar .navbar a {
+  display: block;
+  padding: 2rem;
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+.side-bar .navbar a i {
+  color: var(--main-color);
+  margin-right: 1.5rem;
+  transition: 0.2s linear;
+}
+.side-bar .navbar a span {
+  color: var(--ligt-color);
+}
+.side-bar .navbar a:hover {
+  background-color: var(--light-bg);
+}
+.side-bar .navbar a:hover i {
+  margin-right: 2.5rem;
+}
+.side-bar .active {
+  left: -31rem;
+}
+.navbar .navLi.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding-left: 0;
+  }
+  .side-bar {
+    transition: 0.2s linear;
+    left: -30rem;
+  }
+  .side-bar .active {
+    left: 0;
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+  }
+  .side-bar .close-sidebar {
+    display: block;
+  }
+}

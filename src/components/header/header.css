@@ -1,0 +1,198 @@
+.header {
+  background-color: var(--white);
+  border-bottom: var(--border);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(160, 250, 160);
+
+  z-index: 1000;
+}
+
+.header .flex {
+  padding: 1.5rem 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-btn {
+  display: flex;
+  gap: 1.5rem;
+}
+.header .flex .logo {
+  font-size: 2.5rem;
+  color: var(--black);
+  font-weight: bolder;
+}
+.header .flex .logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+.header .flex .search-form {
+  width: 50rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.5rem 2rem;
+  transition: 0.2s linear;
+  background-color: var(--light-bg);
+}
+
+.header .flex .search-form input {
+  width: 100%;
+  background: none;
+  font-size: 2rem;
+  color: var(--black);
+}
+.header .flex .search-form button {
+  font-size: 2rem;
+  color: var(--black);
+  cursor: pointer;
+  background-color: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn,
+.option-btn,
+.deletebtn,
+.inline-btn,
+.inline-option-btn,
+.inline-delete-btn {
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn,
+.option-btn,
+.delete-btn {
+  background-color: rgb(234, 61, 234);
+  display: block;
+  width: 80%;
+}
+.inline-btn,
+.inline-option-btn,
+.inline-delete-btn {
+  display: inline-block;
+}
+.btn,
+.inline-btn {
+  color: var(--main-color);
+}
+.option-btn,
+.inline-option-btn {
+  background-color: var(--oragen);
+}
+.delete-btn,
+.inline-delete-btn {
+  background-color: var(--red);
+}
+.btn:hover,
+.option-btn:hover,
+.deletebtn:hover,
+.inline-btn:hover,
+.inline-option-btn:hover,
+.inline-delete-btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.header .flex .icons div {
+  font-size: 2rem;
+  color: var(--black);
+  border-radius: 0.5rem;
+  height: 4.5rem;
+  cursor: pointer;
+  width: 4.5rem;
+  line-height: 4.4rem;
+  background-color: var(--light-bg);
+  text-align: center;
+  margin-left: 0.5rem;
+}
+.header .flex .icons div:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+#btn-search {
+  display: none;
+}
+.header .flex .profile {
+  position: absolute;
+  top: 120%;
+  right: 2rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  width: 30rem;
+  opacity: 0;
+  transform-origin: top right;
+  transition: 0.2s linear;
+}
+.header .flex .profile .active {
+  opacity: 1; /* active sınıfı eklendiğinde  */
+}
+
+.header .flex .profile img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.header .flex .profile h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+.header .flex .profile span {
+  color: var(--light-color);
+  font-size: 1.6rem;
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  #search-btn {
+    display: inline-block;
+  }
+  .header .flex .search-form {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    width: auto;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    background-color: var(--white);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .flex .search-form .active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+.sidebar {
+  opacity: 1;
+  transition: 0.2s linear;
+}
+.sidebar .active {
+  opacity: 0;
+}

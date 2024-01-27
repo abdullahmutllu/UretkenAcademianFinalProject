@@ -1,0 +1,55 @@
+/* login.css */
+.containerLogin {
+  margin-top: 0;
+  background-color: rgb(255, 228, 228);
+  background-color: rgba(196, 249, 196, 0.8);
+}
+.login-container {
+  background-size: cover;
+  background-image: url("https://www.cagdas-insaat.com.tr/tr/dimg/referans/30606276512716431183Meram-belediyesi-vektorel-cizim-logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(0.5px) opacity(0.9);
+  background-color: rgb(255, 228, 228);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 230px;
+  width: 300px;
+  margin: auto;
+}
+
+.login-title {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  font-size: 35px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: rgba(251, 251, 251, 0.999);
+}
+
+.login-input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #2980b9;
+}

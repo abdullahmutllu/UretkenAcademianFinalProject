@@ -1,0 +1,31 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(160, 250, 160, 0.8); /* Adjusted background color with alpha */
+  border-top: var(--border);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: var(--black);
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  z-index: 1000;
+}
+
+.footer .apps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white(160, 250, 160, 0.8); /* Adjusted background color with alpha */
+  padding: 5px;
+}
+
+.footer .apps a {
+  margin: 0 5px;
+}
+
+.footer .apps .text {
+  color: black;
+  font-weight: 600;
+}

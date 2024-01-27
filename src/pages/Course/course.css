@@ -1,0 +1,60 @@
+.courses .more-btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+.courses .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.courses .box-container .box {
+  border: 0.5rem;
+  background-color: var(--white);
+  padding: 2rem;
+}
+.courses .box-container .box .tutor {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+.courses .box-container .box .tutor img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.courses .box-container .box .tutor h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: 0.2rem;
+}
+.courses .box-container .box .tutor span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.courses .box-container .box .thumb {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 20rem;
+  object-fit: cover;
+}
+.courses .box-container .box .title {
+  font-size: 2rem;
+  color: var(--black);
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+.inline-btn {
+  background-color: antiquewhite;
+}
+.heading {
+  font-size: 3rem;
+  background-color: whitesmoke;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: white;
+}
